@@ -1,0 +1,104 @@
+.portfolio{
+	max-width: $max-width;
+	margin: 0 auto;
+	padding: 70px 20px 40px 20px;
+	height: 100%;
+	&__items{
+		display: flex;
+		flex-wrap: wrap;
+		li{
+			width: 46%;
+            margin: 0 2% 60px 2%;
+			a{
+				height: 400px;
+				background-position: center center;
+				background-size: cover;
+				padding-bottom: 0;
+				padding-top: 0;
+				display: block;
+				.info{
+					opacity: 0;
+					transition: opacity 0.3s;
+					padding: 0 10%;
+					background: $gray-light;
+					position: relative;
+					width: 100%;
+          height: 100%;
+					.info-container{
+						text-align: center;
+						padding: 0 10%;
+						position: relative;
+						top: 50%;
+						transform: translate(0, -50%);
+						h2{
+							color: black;
+							font-size: 2.2rem;
+							margin: 0 0 10px 0;
+						}
+						p{
+							color: $gray;
+							font-size: 1.6rem;
+							line-height: 2.2rem;
+						}
+						ul{
+							margin: 30px 0 0 0 ;
+							li{
+								display: inline-block;
+								width: 100%;
+								font-size: 2rem;
+								padding: 0 10px 0 0;
+								margin: 0 10px 0 0;
+								color: black;
+								border-right: 1px solid $gray;
+								&:last-child{
+									border-right: none;
+									padding: 0;
+									margin: 0;
+								}
+								@include mobile{
+									display: block;
+									font-style: 1.6rem;
+									margin: 0 0 10px 0;
+									padding: 0;
+									border-right: none;
+								}
+							}
+							@include mobile{
+								display: none;
+							}
+						}
+					}
+				}
+				&:hover .info{
+					opacity: 1;
+					transition: opacity 0.3s;
+				}
+			}
+		}
+	}
+	@include phablet{
+		&__items{
+			max-width: 560px;
+			margin: 0 auto;
+			li{
+				width: 100%;
+				margin: 0 0 40px 0;
+				a{
+					&:hover .info{
+						opacity: 0;
+						transition: opacity 0.3s;
+					}
+				}
+			}
+		}
+	}
+	@include mobile{
+		&__items{
+			li{
+				a{
+					height: 250px;
+				}
+			}
+		}
+	}
+}

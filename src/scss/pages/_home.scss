@@ -1,0 +1,261 @@
+.home{
+	height: 100vh;
+	position: relative;
+	h1{
+		position: absolute;
+		left: -10000px;
+	}
+	&__big-tagline{
+		position: absolute;
+		left: 50%;
+		top: 45%;
+		transform: translate(-50%,-50%);
+    	max-width: 1000px;
+    	min-width:800px;
+    	width: 60vw;
+    	svg{
+    		width: 100%;
+    	}
+    	@include phablet{
+    		width: 90vw;
+    		min-width: 300px;
+    		top: 35%;
+    	}
+    	path.p1 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s ease-in forwards, fill 0.5s ease-in forwards;
+		}
+		path.p2 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.57s ease-in forwards;
+		}
+		path.p3 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.59s ease-in forwards;
+		}
+		path.p4 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.61s ease-in forwards;
+		}
+		path.p5 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.63s ease-in forwards;
+		}
+		path.p6 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.65s ease-in forwards;
+		}
+		path.p7 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.67s ease-in forwards;
+		}
+		path.p8 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.69s ease-in forwards;
+		}
+		path.p9 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.71s ease-in forwards;
+		}
+		path.p10 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.73s ease-in forwards;
+		}
+		path.p11 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.75s ease-in forwards;
+		}
+		path.p12 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.77s ease-in forwards;
+		}
+		path.p13 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.79s ease-in forwards;
+		}
+		path.p14 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.81s ease-in forwards;
+		}
+		path.p15 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.83s ease-in forwards;
+		}
+		path.p16 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.85s ease-in forwards;
+		}
+		path.p17 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.87s ease-in forwards;
+		}
+		path.p18 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.89s ease-in forwards;
+		}
+		path.p19 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 0.91s ease-in forwards;
+		}
+		path.p20 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 1.01s ease-in forwards;
+		}
+		path.p21 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 1.03s ease-in forwards;
+		}
+		path.p22 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 1.05s ease-in forwards;
+		}
+		path.p23 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 1.07s ease-in forwards;
+		}
+		path.p24 {
+		    stroke-dasharray: 500;
+		    stroke-dashoffset: 500;
+		    fill: #ffffff;
+		    animation: dash 1s linear forwards, fill 1.09s ease-in forwards;
+		}
+		@keyframes dash {
+		  to{
+		    stroke-dashoffset: 0;
+		  }
+		}
+		@keyframes fill {
+		  0%{
+		    fill: #ffffff;
+		  }
+		  90%{
+		    fill:  #ffffff;
+		  }
+		  100% {
+		    fill: #000000;
+		  }
+		}
+		@keyframes appear {
+		  0%{
+		    opacity: 0;
+		  }
+		  80%{
+		  	 opacity: 0;
+		  }
+		  100% {
+		    opacity: 1;
+		  }
+		}
+	}
+	h2{
+		text-align: center;
+		position: absolute;
+		left: 50%;
+		top: 60%;
+		transform: translate(-50%,-50%);
+    	max-width: 60vw;
+    	width: 100%;
+    	font-size: 2.2rem;
+    	color: $gray;
+    	font-weight: 300;
+    	font-family: $main-font;
+    	animation: appear 2s ease-in forwards;
+    	@include tablet{
+    		max-width: 90%;
+    		top: 55%;
+    		font-size: 1.8rem;
+
+		}
+	}
+	&__view{
+		text-align: center;
+		display: none;
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		top: 73%;
+		transform: translate(-50%,-50%);
+    	font-size: 1.8rem;
+    	color: black;
+    	font-weight: 300;
+    	font-family: $main-font;
+    	padding: 0 22px 0 0;
+    	animation: appear 2.5s ease-in forwards;
+    	width: 180px;
+		&:after{
+	   		content: url('../img/submit.svg');
+	   		width: 18px;
+	   		position: absolute;
+	   		right: 0;
+	   		top: 2px;
+	   	}
+	}
+	&__share{
+		top: 90%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,0);
+		text-align: center;
+		margin: 0 auto;
+		animation: appear 3s ease-in forwards;
+		a{
+			display: inline-block;
+			i{
+				font-size: 2rem;
+				color: black;
+				margin: 0 10px;
+				transition: color 0.3s;
+			}
+			&:hover i{
+				color: $red;
+				transition: color 0.3s;
+			}
+		}
+	}
+}

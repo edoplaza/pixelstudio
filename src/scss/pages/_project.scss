@@ -1,0 +1,70 @@
+.project{
+	padding: 60px 0 0 0;
+	&__section{
+		padding: 60px 0 0 0;
+		text-align: center;
+		h2{
+			margin: 0 0 60px;
+			font-size: 3rem;
+			font-weight: 300;
+		}
+		img{
+			margin: 0 0 100px 0;
+		}
+	}
+
+	@include phablet{
+		padding: 30px 0;
+		&__section{
+			img{
+				margin: 0;
+			}
+		}
+	}
+}
+
+.project-nav{
+	width: 90%;
+	max-width: 800px;
+	display: flex;
+	margin: 0 auto;
+	padding: 40px 0;
+	flex-wrap: nowrap;
+	span{
+		width: 50%;
+		display: inline-block;
+		a{
+			font-size: 1.6rem;
+	        color: black;
+	        position: relative;
+		   	display: inline-block;
+		}
+		&.prev{
+			text-align: left;
+			a{
+				padding: 0 0 0 22px;
+			   	&:before{
+			   		content: url('../img/arrow.svg');
+			   		transform: rotate(180deg);
+			   		width: 18px;
+			   		position: absolute;
+			   		left: 0;
+			   		top: -1px;
+			   	}
+			}
+		}
+		&.next{
+			text-align: right;
+			a{
+			   	padding: 0 22px 0 0;
+			   	&:after{
+			   		content: url('../img/arrow.svg');
+			   		width: 18px;
+			   		position: absolute;
+			   		right: 0;
+			   		top: 2px;
+			   	}
+			}
+		}
+	}
+}
